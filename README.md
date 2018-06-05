@@ -7,6 +7,8 @@ until you interact with the screen. The code prints to the console so
 you can watch it to see progress. It will pause around "foo2" or
 "foo3" and touching the screen will force it to continue.
 
+**This must run in a release build to see the behavior**
+
 Here is the code in `run-test.js` that causes this strange behavior:
 
 ```js
