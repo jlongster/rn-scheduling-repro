@@ -1,7 +1,7 @@
 This project reproduces a strange behavior in React Native. I've
 boiled down this repro from a much larger app.
 
-Check out `run-test.js`. This code should run the `code` string to
+Check out [`run-test.js`](https://github.com/jlongster/rn-scheduling-repro/blob/master/run-test.js). This code should run the `code` string to
 completion, but it pauses in the middle and won't complete execution
 until you interact with the screen. The code prints to the console so
 you can watch it to see progress. It will pause around "foo2" or
